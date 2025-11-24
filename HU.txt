@@ -1,0 +1,37 @@
+SISTEMA INTEGRAL DE GESTIÓN DE INVENTARIO Y VENTAS CON REPORTES DINÁMICOS
+
+Librería nacional, sistema robusto que permita:
+-Registrar ventas y productos
+-Generar reportes detallados
+-Aplicar descuentos por cliente
+-Agrupar estadísticas por autor
+-Evaluar el rendimiento del inventario con base en ventas
+
+Requisitos funcionales:
+1. Gestión de inventario
+-Registrar, consultar, actualizar y eliminar productos.
+-Cada producto debe tener: título, autor, categoría, precio,cantidad en stock.
+
+2. Registro y consulta de ventas
+-Registrar ventas de productos, asociando: cliente, producto vendido, cantidad, fecha y descuento (si aplica).
+-Validar stock disponible y actualizarlo automáticamente.
+
+3. Módulo de reportes
+-Mostrat el top 3 de productos más vendidos
+-Generar reporte de ventas totales agrupado por autor.
+-Calcular ingreso neto y bruto (con y sin descuento). OPCIONAL
+
+4. Validaciones avanzadas
+-Validar entradas (números positivos, formatos correctos, campos obligatorios).
+-No permitir ventas con stock insuficiente.
+
+5. 
+-Cada funcionalidad debe estar encapsulada en funciones.
+
+6.
+-Iniciar con 5 productos precargados.
+-Interacciones en inglés.
+-Comentarios pueden ir en español.
+
+
+
